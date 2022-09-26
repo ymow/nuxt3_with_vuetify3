@@ -1,4 +1,5 @@
 <template>
+  <p>{{sale}}</p>
   <v-card :color="sale.color" dark>
     <v-card-text>
       <v-sparkline :value="sale.sales" :labels="sale.labels" color="rgba(255, 255, 255, .7)" height="100" padding="24"

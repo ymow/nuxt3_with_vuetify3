@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         '~/assets/styles/quasar.sass' 
       ],
   build: {
-    transpile: ['vuetify', 'primevue', ''],
+    transpile: ['vuetify', 'primevue', 'quasar'],
   },
   vite: {
     define: {

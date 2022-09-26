@@ -1,5 +1,5 @@
 <template>
-    <v-container>
+    <v-container fluid>
         <v-row>
             <v-col v-for="sale in sales" :key="`${sale.title}`">
                 <SalesGraph :sale="sale" />
